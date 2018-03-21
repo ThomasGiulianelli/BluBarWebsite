@@ -1,5 +1,5 @@
 body {
-    background-color: #9BFFFB;
+    background-color: #99CCFF;
 }
 
 .logo {
@@ -24,6 +24,7 @@ body {
 
 .main_nav a {
     text-decoration: none;
+    font-family: 'Arial';
 }
 
 #main_image {
@@ -33,16 +34,21 @@ body {
 
 #contact {
     text-align: center;
-    color: white;
-    background-color: black;
+    background-color: #2E382E;
     border-radius: 20px;
     padding: 10px 0px;
     margin: 0px 200px;
-    
 }
 
 #contact h1 {
+    font-family: 'Merienda', Helvetica; 
+    font-size: 28px;
     color: palevioletred;
+}
+
+#contact p {
+    font-family: 'Didact Gothic', Helvetica; 
+    color: #E8EEF2;
 }
 
 /* Image Gallery */
@@ -52,6 +58,11 @@ body {
     margin-right: auto;
     
     width: 100%;
+}
+
+#gallery h1 {
+    font-family: 'Merienda', Helvetica; 
+    font-size: 28px;
 }
 
 .row {
