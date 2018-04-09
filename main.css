@@ -42,8 +42,7 @@ body {
     background-color: #2E382E;
     border-radius: 20px;
     padding: 10px 0px;
-    width: 90%;
-}
+    width: 90%;}
 
 #contact h1 {
     font-family: 'Merienda', 'Gabriola', Helvetica; 
@@ -58,6 +57,16 @@ body {
 
 #map {
     box-sizing: content-box; /*overrides bootstrap border-box value*/
+}
+
+#form {
+    /*position: absolute;*/
+    position: relative;
+    left: 25%;
+    margin: 15px;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #E8EEF2;
 }
 
 /* Image Gallery */
