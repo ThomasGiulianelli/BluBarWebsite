@@ -2,13 +2,16 @@
 <html>
 <head>
     <title>Blu Bar</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <meta charset='UTF-8'/>
     <meta name="keywords" content="Blu,Bar,Vallecrosia,cafe,contact,directions,contatto,direzioni">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Thomas Giulianelli">
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <header>
@@ -29,22 +32,34 @@
     </nav>
     
     <article>
-        <div id="contact">
-            <h1>Visit Us</h1>
-            <p>Via Colonnello Aprosio 268</p>
-            <p>Vallecrosia</p>
-            <p>Tel: +39 340 250 6962</p>
-            <p>Open 7 days a week</p>
-            <p>Mon - Sat: 5:00am - 8:00pm</p>
-            <p>Sun: 5:00am - 1:00pm</p>
-
-            <!-- Google Map -->
-            <iframe id="map"
-              width="650"
-              height="650"
-              frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARHyo4LqkITvy1-NcYOWW-ZbXi0rtc924&q=Via+Colonnello+Aprosio+268,Vallecrosia+Italy&attribution_source=Blu+Bar+Vallecrosia" allowfullscreen>
-            </iframe>
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col-xs-0 col-lg-1"></div> <!-- empty left margin for large screens -->
+                <div class="col-xs-12 col-lg-3">
+                    <h1>Visit Us</h1>
+                    <p>Via Colonnello Aprosio 268</p>
+                    <p>Vallecrosia</p>
+                    <p>Tel: +39 340 250 6962</p>
+                    <p>Open 7 days a week</p>
+                    <p>Mon - Sat: 5:00am - 8:00pm</p>
+                    <p>Sun: 5:00am - 1:00pm</p>
+                </div>
+                <div class="col-xs-12 col-lg-7">
+                    <!-- Google Map -->
+                    <iframe id="map"
+                      width="90%"
+                      height="650"
+                      frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARHyo4LqkITvy1-NcYOWW-ZbXi0rtc924&q=Via+Colonnello+Aprosio+268,Vallecrosia+Italy&attribution_source=Blu+Bar+Vallecrosia" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="col-xs-0 col-lg-1"></div> <!-- empty right margin for large screens -->
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                </div>
+            </div>
         </div>
     </article>
 </body>

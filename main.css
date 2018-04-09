@@ -42,7 +42,7 @@ body {
     background-color: #2E382E;
     border-radius: 20px;
     padding: 10px 0px;
-    margin: 0px 200px;
+    width: 90%;
 }
 
 #contact h1 {
@@ -61,7 +61,7 @@ body {
 }
 
 /* Image Gallery */
-.no-gutter > [class*='col-'] {
+.small-gutter > [class*='col-'] {
     /* reduce gutter width */
     padding-right: 5px;
     padding-left: 5px;
