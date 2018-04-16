@@ -2,6 +2,15 @@ body {
     background-color: #99CCFF;
 }
 
+footer {
+    background-color: #2E382E;
+}
+
+#google-search {
+    margin: auto;
+    max-width: 300px;
+}
+
 .logo {
     text-align: center;
     margin: 0 auto;
