@@ -95,3 +95,26 @@ footer {
     font-family: 'Merienda', Helvetica; 
     font-size: 28px;
 }
+
+/* 404 page */
+.error404 {
+    text-align: center;
+    color: #E8EEF2;
+    background: url(images/coffee.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.error404 h1 {
+    font-size: 72px;
+}
+.error404 h3 a {
+    text-decoration: underline;
+    color: #E8EEF2;
+}
+.message404 {
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    margin:-100px 0 0 -150px;
+}
