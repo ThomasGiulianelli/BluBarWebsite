@@ -124,6 +124,16 @@ hr {
 
 }
 
+/* Menu */
+#menu {
+    text-align: center;
+    width: 100%;
+}
+#menu h1 {
+    font-family: 'Merienda', Helvetica; 
+    font-size: 28px;
+}
+
 /* Image Gallery */
 .small-gutter > [class*='col-'] {
     /* reduce gutter width */
