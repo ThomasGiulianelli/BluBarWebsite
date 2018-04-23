@@ -43,6 +43,29 @@ footer {
     font-size: 16px;
 }
 
+.language-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Format language list for xs to md device widths */
+@media (max-width:991px) {.language-list {
+    text-align: center;
+    margin-top:0;
+}}
+
+.language-list ul {
+    padding: 0;
+}
+.language-list li {
+    display: inline;
+    padding: 25px;
+}
+
+.language-list a {
+    color: #FFF;
+}
+
 #contact {
     text-align: center;
     background-color: #2E382E;
