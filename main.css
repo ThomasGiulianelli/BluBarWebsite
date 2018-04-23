@@ -19,9 +19,9 @@ footer {
 }
 
 .social_media {
-    position: absolute;
-    right: 100px;
-    top: 100px;
+    float: right;
+    margin-top: -9%;
+    margin-right: 10%;
 }
 
 .main_nav {
