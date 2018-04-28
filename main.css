@@ -3,8 +3,12 @@ body {
     background: url(images/white_diamond_quartz.jpg);
 }
 
+header {
+    margin-top: 15px;
+}
+
 footer {
-    background-color: #2E382E;
+    background-color: #333;
     margin-top: 20px;
 }
 
@@ -58,6 +62,7 @@ hr {
     border-radius: 20px 20px 20px 20px;
 }
 
+/* Format nav bar on small devices */
 @media (max-width:370px) {.nav_bar a {
     padding: 15px 13px;
     font-size: 14px;
@@ -100,7 +105,8 @@ hr {
 }
 
 .language-list a {
-    color: #FFF;
+    color: #EEE;
+    padding: 10px;
 }
 
 #contact {
@@ -154,7 +160,6 @@ hr {
     margin: auto;
     padding: 10px;
     max-width: 500px;
-
 }
 
 /* Menu */
