@@ -165,7 +165,6 @@ hr {
 /* Menu */
 #menu {
     text-align: center;
-    width: 100%;
 }
 #menu h1 {
     font-family: 'Merienda', Helvetica; 
@@ -185,6 +184,29 @@ hr {
 #gallery h1 {
     font-family: 'Merienda', Helvetica; 
     font-size: 28px;
+}
+
+/* PhotoSwipe gallery */
+.my-gallery {
+  width: 105%;
+  float: left;
+}
+/* Shoddy way to make gallery appear more centered on medium-large devices */
+@media (max-width:400px) .my-gallery {
+    padding-left: 3%;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 30%;
+}
+.my-gallery figcaption {
+  display: none;
 }
 
 /* 404 page */
