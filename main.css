@@ -117,13 +117,13 @@ hr {
     width: 90%;}
 
 #contact h1 {
-    font-family: 'Merienda', 'Gabriola', Helvetica; 
+    font-family: 'Merienda', 'Gabriola', Helvetica, sans-serif; 
     font-size: 35px;
     color: #0A17B9;
 }
 
 #contact p {
-    font-family: 'Didact Gothic', Helvetica; 
+    font-family: 'Didact Gothic', Helvetica, sans-serif; 
     font-size: 16px;
     color: #0A17B9;
 }
@@ -144,6 +144,8 @@ hr {
 #map {
     box-sizing: content-box; /*overrides bootstrap border-box value*/
     border: 5px ridge #0A17B9;
+    width: 90%;
+    height: 500px;
 }
 
 .extraMargin {
@@ -167,7 +169,7 @@ hr {
     text-align: center;
 }
 #menu h1 {
-    font-family: 'Merienda', Helvetica; 
+    font-family: 'Merienda', Helvetica, sans-serif; 
     font-size: 28px;
 }
 
@@ -182,7 +184,7 @@ hr {
     width: 100%;
 }
 #gallery h1 {
-    font-family: 'Merienda', Helvetica; 
+    font-family: 'Merienda', Helvetica, sans-serif; 
     font-size: 28px;
 }
 
