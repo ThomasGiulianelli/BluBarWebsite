@@ -109,6 +109,29 @@ hr {
     padding: 10px;
 }
 
+#description {
+    background-color: #99CCFF;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    width: 70%;
+    padding: 20px 50px;
+}
+
+#description p {
+    text-align: center;
+    font-family: 'Didact Gothic', Helvetica, sans-serif; 
+    font-size: 18px;
+    color: #0A17B9;
+}
+
+@media (max-width:991px) {#description {
+    width: 90%;
+    padding: 20px 20px;
+}
+ #description p{
+    font-size: 16px;
+}}
+
 #contact {
     text-align: center;
     background-color: #99CCFF;
