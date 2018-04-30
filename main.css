@@ -190,25 +190,26 @@ hr {
 
 /* PhotoSwipe gallery */
 .my-gallery {
-  width: 105%;
-  float: left;
-}
-/* Shoddy way to make gallery appear more centered on medium-large devices */
-@media (max-width:400px) .my-gallery {
+    width: 105%;
+    float: left;
     padding-left: 3%;
 }
+/* Shoddy way to make gallery appear more centered on medium-large devices */
+@media (max-width:400px) {.my-gallery {
+    padding-left: 0;
+}}
 .my-gallery img {
-  width: 100%;
+        width: 100%;
   height: auto;
 }
 .my-gallery figure {
-  display: block;
-  float: left;
-  margin: 0 10px 10px 0;
-  width: 30%;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 30%;
 }
 .my-gallery figcaption {
-  display: none;
+    display: none;
 }
 
 /* 404 page */
